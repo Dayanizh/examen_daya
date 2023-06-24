@@ -4,19 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
+import { InputFormsPageRoutingModule } from './input-forms-routing.module';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { InputFormsPage } from './input-forms.page';
 import { ComponentsModule } from '../../components/components.module';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule,
+    InputFormsPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ActionSheetPage]
+  declarations: [InputFormsPage]
 })
-export class ActionSheetPageModule {}
+export class InputFormsPageModule {}
