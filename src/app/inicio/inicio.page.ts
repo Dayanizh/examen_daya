@@ -20,7 +20,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/alert'
       },
       {
-      icon: 'document-text-outline',
+      icon: 'create-outline',
       name: 'Input Forms',
       redirectTo: '/input-forms'
       

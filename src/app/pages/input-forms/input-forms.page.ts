@@ -6,11 +6,9 @@ import { NgForm } from '@angular/forms';
   templateUrl: './input-forms.page.html',
   styleUrls: ['./input-forms.page.scss'],
 })
-export class InputFormsPage implements OnInit {
-  nombre: string='YAZMIN';
-  usuario ={
-    email: ' ',
-    password: ' '
+export class InputFormsPage {
+  name: string='YAZMIN';
+  number ={
   }
 
   constructor() { }
